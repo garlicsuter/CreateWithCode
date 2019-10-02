@@ -2,6 +2,9 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+################
+#PersonalProject2
+################
 PersonalProject2/[Ll]ibrary/
 PersonalProject2/[Tt]emp/
 PersonalProject2/[Oo]bj/
@@ -25,6 +28,32 @@ PersonalProject2/[Aa]ssets/TextMesh*Pro/
 # Visual Studio cache directory
 PersonalProject2/.vs/
 
+################
+#Challenge2-fetch
+################
+Challenge2-fetch/[Ll]ibrary/
+Challenge2-fetch/[Tt]emp/
+Challenge2-fetch/[Oo]bj/
+Challenge2-fetch/[Bb]uild/
+Challenge2-fetch/[Bb]uilds/
+Challenge2-fetch/[Ll]ogs/
+Challenge2-fetch/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Challenge2-fetch/[Aa]ssets/**/*.meta
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# TextMesh Pro files
+Challenge2-fetch/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Challenge2-fetch/.vs/
+
+#################
+#Not project specific
+#################
 # Gradle cache directory
 .gradle/
 
