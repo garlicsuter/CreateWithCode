@@ -88,6 +88,26 @@ Prototype_2-FeedAnimals/[Aa]ssets/TextMesh*Pro/
 Prototype_2-FeedAnimals/.vs/
 
 
+################
+#Prototype_3_JumpForce
+################
+Prototype_3_JumpForce/[Ll]ibrary/
+Prototype_3_JumpForce/[Tt]emp/
+Prototype_3_JumpForce/[Oo]bj/
+Prototype_3_JumpForce/[Bb]uild/
+Prototype_3_JumpForce/[Bb]uilds/
+Prototype_3_JumpForce/[Ll]ogs/
+Prototype_3_JumpForce/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype_3_JumpForce/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+Prototype_3_JumpForce/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype_3_JumpForce/.vs/
+
 
 #################
 #Not project specific
