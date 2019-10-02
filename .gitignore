@@ -16,9 +16,6 @@ PersonalProject2/[Mm]emoryCaptures/
 # Never ignore Asset meta data
 !PersonalProject2/[Aa]ssets/**/*.meta
 
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# /[Aa]ssets/AssetStoreTools*
-
 # TextMesh Pro files
 PersonalProject2/[Aa]ssets/TextMesh*Pro/
 
@@ -50,6 +47,46 @@ Challenge2-fetch/[Aa]ssets/TextMesh*Pro/
 
 # Visual Studio cache directory
 Challenge2-fetch/.vs/
+
+################
+#Prototype_2-FeedAnimals
+################
+Prototype_2-FeedAnimals/[Ll]ibrary/
+Prototype_2-FeedAnimals/[Tt]emp/
+Prototype_2-FeedAnimals/[Oo]bj/
+Prototype_2-FeedAnimals/[Bb]uild/
+Prototype_2-FeedAnimals/[Bb]uilds/
+Prototype_2-FeedAnimals/[Ll]ogs/
+Prototype_2-FeedAnimals/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype_2-FeedAnimals/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+Prototype_2-FeedAnimals/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype_2-FeedAnimals/.vs/
+
+################
+#Prototype_1-PlaneFlying
+################
+Prototype_1-PlaneFlying/[Ll]ibrary/
+Prototype_1-PlaneFlying/[Tt]emp/
+Prototype_1-PlaneFlying/[Oo]bj/
+Prototype_1-PlaneFlying/[Bb]uild/
+Prototype_1-PlaneFlying/[Bb]uilds/
+Prototype_1-PlaneFlying/[Ll]ogs/
+Prototype_1-PlaneFlying/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype_1-PlaneFlying/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+Prototype_1-PlaneFlying/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype_1-PlaneFlying/.vs/
 
 #################
 #Not project specific
