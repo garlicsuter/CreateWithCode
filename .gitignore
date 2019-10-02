@@ -2,6 +2,28 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+
+################
+#Prototype_1-PlaneFlying_and_challenge_1
+################
+Prototype_1-PlaneFlying_and_challenge_1/[Ll]ibrary/
+Prototype_1-PlaneFlying_and_challenge_1/[Tt]emp/
+Prototype_1-PlaneFlying_and_challenge_1/[Oo]bj/
+Prototype_1-PlaneFlying_and_challenge_1/[Bb]uild/
+Prototype_1-PlaneFlying_and_challenge_1/[Bb]uilds/
+Prototype_1-PlaneFlying_and_challenge_1/[Ll]ogs/
+Prototype_1-PlaneFlying_and_challenge_1/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype_1-PlaneFlying_and_challenge_1/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+Prototype_1-PlaneFlying_and_challenge_1/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype_1-PlaneFlying_and_challenge_1/.vs/
+
+
 ################
 #PersonalProject2
 ################
@@ -68,25 +90,7 @@ Prototype_2-FeedAnimals/[Aa]ssets/TextMesh*Pro/
 # Visual Studio cache directory
 Prototype_2-FeedAnimals/.vs/
 
-################
-#Prototype_1-PlaneFlying
-################
-Prototype_1-PlaneFlying/[Ll]ibrary/
-Prototype_1-PlaneFlying/[Tt]emp/
-Prototype_1-PlaneFlying/[Oo]bj/
-Prototype_1-PlaneFlying/[Bb]uild/
-Prototype_1-PlaneFlying/[Bb]uilds/
-Prototype_1-PlaneFlying/[Ll]ogs/
-Prototype_1-PlaneFlying/[Mm]emoryCaptures/
 
-# Never ignore Asset meta data
-!Prototype_1-PlaneFlying/[Aa]ssets/**/*.meta
-
-# TextMesh Pro files
-Prototype_1-PlaneFlying/[Aa]ssets/TextMesh*Pro/
-
-# Visual Studio cache directory
-Prototype_1-PlaneFlying/.vs/
 
 #################
 #Not project specific
