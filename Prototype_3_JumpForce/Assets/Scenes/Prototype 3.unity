@@ -236,6 +236,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 373308630, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 373308632, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+      propertyPath: jumpForce
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 373308632, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+      propertyPath: gravityModifier
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
 --- !u!1 &534669902
@@ -332,6 +344,7 @@ GameObject:
   - component: {fileID: 835818920}
   - component: {fileID: 835818922}
   - component: {fileID: 835818923}
+  - component: {fileID: 835818924}
   m_Layer: 9
   m_Name: Background
   m_TagString: Untagged
@@ -413,7 +426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84dd461601e8c1348b2e65bdc3755900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
+  playerControllerScript: {fileID: 0}
+  leftBound: -15
 --- !u!114 &835818923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,6 +441,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cc49b654cdb3234e9391d7bec29cc0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &835818924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835818919}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 112.79999, y: 18.81, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1586143359
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 4272171895465038047, guid: 654372b0df2239049a3e807b05ea598c,
     type: 3}
+  playerControllerScript: {fileID: 0}
 --- !u!4 &1586143361
 Transform:
   m_ObjectHideFlags: 0
@@ -485,7 +514,7 @@ GameObject:
   - component: {fileID: 2014335012}
   m_Layer: 9
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
