@@ -1,7 +1,7 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
-#
+# Comments are neat.
 
 ################
 #Prototype_1-Driving_and_challenge_1_Plane
@@ -94,8 +94,8 @@ Prototype_2-FeedAnimals/.vs/
 Prototype_3_JumpForce/[Ll]ibrary/
 Prototype_3_JumpForce/[Tt]emp/
 Prototype_3_JumpForce/[Oo]bj/
-Prototype_3_JumpForce/[Bb]uild/
-Prototype_3_JumpForce/[Bb]uilds/
+#Prototype_3_JumpForce/[Bb]uild/
+#Prototype_3_JumpForce/[Bb]uilds/
 Prototype_3_JumpForce/[Ll]ogs/
 Prototype_3_JumpForce/[Mm]emoryCaptures/
 

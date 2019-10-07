@@ -11,7 +11,11 @@ AnimatorController:
   m_AnimatorParameters:
   - m_Name: Speed_f
     m_Type: 1
+<<<<<<< HEAD
     m_DefaultFloat: 1.5
+=======
+    m_DefaultFloat: 1
+>>>>>>> 784e76071898aa2bf6120f6740f30d5037a5c5bc
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
