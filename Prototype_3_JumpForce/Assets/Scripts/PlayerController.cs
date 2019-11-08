@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isOnGround)
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround && !gameOver)
         {
             // Four Types of ForceMode - 1: Acceleration, 2:Force (continuous force based on mass),
             //  3: Impulse (uses mass, instant),and 4: VelocityChange (Ignores Mass)
