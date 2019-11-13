@@ -327,7 +327,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rigidbody.AddForce
+  m_text: 'Rigidbody.MovePosition
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -396,9 +398,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 623247453}
-    characterCount: 18
+    characterCount: 23
     spriteCount: 0
-    spaceCount: 0
+    spaceCount: 1
     wordCount: 2
     linkCount: 0
     lineCount: 1
@@ -1050,10 +1052,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1956142862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 156959bc301495d419547c52088c76ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f53ad7dbba4fe845ba5a98d84796fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 1
 --- !u!54 &1956142868
 Rigidbody:
   m_ObjectHideFlags: 0
