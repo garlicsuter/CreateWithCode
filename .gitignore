@@ -109,6 +109,26 @@ Prototype_3_JumpForce/[Aa]ssets/TextMesh*Pro/
 Prototype_3_JumpForce/.vs/
 
 
+################
+#Prototype_4_SumoBall
+################
+Prototype_4_SumoBall/[Ll]ibrary/
+Prototype_4_SumoBall/[Tt]emp/
+Prototype_4_SumoBall/[Oo]bj/
+#Prototype_4_SumoBall/[Bb]uild/
+#Prototype_4_SumoBall/[Bb]uilds/
+Prototype_4_SumoBall/[Ll]ogs/
+Prototype_4_SumoBall/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype_4_SumoBall/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+Prototype_4_SumoBall/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype_4_SumoBall/.vs/
+
 #################
 #Not project specific
 #################
