@@ -226,6 +226,10 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4419715799495126233, guid: 75a7a04d3b55ad545b72fa59dd8476bf,
     type: 3}
   spawnRange: 9
+  enemyCount: 0
+  waveNumber: 1
+  powerUpPrefab: {fileID: 2382000535687387213, guid: 59ae51527d6c2cc4abbf51643d0a281d,
+    type: 3}
 --- !u!4 &334850340
 Transform:
   m_ObjectHideFlags: 0
@@ -405,7 +409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 49706f35ea596fd45b52be226bacb657, type: 2}
+  - {fileID: 2100000, guid: e6e6f7a3c9f4839409af1eae15839382, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -766,6 +770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Powerup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382000535687387213, guid: 59ae51527d6c2cc4abbf51643d0a281d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2379614059801013849, guid: 59ae51527d6c2cc4abbf51643d0a281d,
         type: 3}
