@@ -9,9 +9,15 @@ public class EnemyX : MonoBehaviour
     private GameObject playerGoal;
 
     // Start is called before the first frame update
+    private void Awake()
+    {
+            playerGoal = GameObject.FindGameObjectWithTag("PlayerGoal");
+    }
+
     void Start()
     {
         enemyRb = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
