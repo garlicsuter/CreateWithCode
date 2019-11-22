@@ -2,6 +2,12 @@
  Unity Learn "Create with Code" Projects
 
 All the projects in one place!
-# Header 1 is so important!
-## Header 2 - Less so
-### Header 3 - Just weak.
+# Challege 4 (soccer) fixes
+- After importing the Challenge 4 assets, the Unit 4 player texture is removed, re-add it.
+
+- When attempting to remedy Challenge 4 problem 1, scene isn't playable because EnemyX.cs script is missing a GameObject reference to PlayerGoal. Fixed by using a tag on Player Goal:
+
+private void Awake()
+    {
+            playerGoal = GameObject.FindGameObjectWithTag("PlayerGoal");
+    }
