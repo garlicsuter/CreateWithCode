@@ -11,3 +11,6 @@ private void Awake()
     {
             playerGoal = GameObject.FindGameObjectWithTag("PlayerGoal");
     }
+
+# Lab 4
+I copied the Lab 3 from Unit 3 into my Unit 4 Assets folder, renamed it Lab 4.
