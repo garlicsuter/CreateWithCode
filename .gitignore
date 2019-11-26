@@ -6,6 +6,8 @@
 ################
 #Prototype_1-Driving_and_challenge_1_Plane
 ################
+
+
 Prototype_1-Driving_and_challenge_1_Plane/[Ll]ibrary/
 Prototype_1-Driving_and_challenge_1_Plane/[Tt]emp/
 Prototype_1-Driving_and_challenge_1_Plane/[Oo]bj/
@@ -22,6 +24,7 @@ Prototype_1-Driving_and_challenge_1_Plane/[Aa]ssets/TextMesh*Pro/
 
 # Visual Studio cache directory
 Prototype_1-Driving_and_challenge_1_Plane/.vs/
+
 
 
 ################
@@ -43,6 +46,8 @@ PersonalProject2-Primitives/[Aa]ssets/TextMesh*Pro/
 
 # Visual Studio cache directory
 PersonalProject2-Primitives/.vs/
+
+
 
 ################
 #Challenge2-fetch
@@ -67,6 +72,8 @@ Challenge2-fetch/[Aa]ssets/TextMesh*Pro/
 # Visual Studio cache directory
 Challenge2-fetch/.vs/
 
+
+
 ################
 #Prototype_2-FeedAnimals
 ################
@@ -86,6 +93,7 @@ Prototype_2-FeedAnimals/[Aa]ssets/TextMesh*Pro/
 
 # Visual Studio cache directory
 Prototype_2-FeedAnimals/.vs/
+
 
 
 ################
@@ -109,6 +117,7 @@ Prototype_3_JumpForce/[Aa]ssets/TextMesh*Pro/
 Prototype_3_JumpForce/.vs/
 
 
+
 ################
 #Prototype_4_SumoBall
 ################
@@ -128,6 +137,29 @@ Prototype_4_SumoBall/[Aa]ssets/TextMesh*Pro/
 
 # Visual Studio cache directory
 Prototype_4_SumoBall/.vs/
+
+
+
+################
+#Prototype5-ClickyCrate-UI
+################
+Prototype5-ClickyCrate-UI/[Ll]ibrary/
+Prototype5-ClickyCrate-UI/[Tt]emp/
+Prototype5-ClickyCrate-UI/[Oo]bj/
+#Prototype5-ClickyCrate-UI/[Bb]uild/
+#Prototype5-ClickyCrate-UI/[Bb]uilds/
+Prototype5-ClickyCrate-UI/[Ll]ogs/
+Prototype5-ClickyCrate-UI/[Mm]emoryCaptures/
+
+# Never ignore Asset meta data
+!Prototype5-ClickyCrate-UI/[Aa]ssets/**/*.meta
+
+# TextMesh Pro files
+#Prototype5-ClickyCrate-UI/[Aa]ssets/TextMesh*Pro/
+
+# Visual Studio cache directory
+Prototype5-ClickyCrate-UI/.vs/
+
 
 #################
 #Not project specific
