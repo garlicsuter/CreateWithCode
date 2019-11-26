@@ -22,7 +22,15 @@ public class PlayerControllerL3AddForce : MonoBehaviour
         playerRb.AddForce(Vector3.right * speed * horizontalInput);
         playerRb.AddForce(Vector3.forward * speed * verticalInput);
 
-        Debug.Log(verticalInput + " Vertical Input");
-        Debug.Log(horizontalInput + " Horizontal Input");
+        //Debug.Log(verticalInput + " Vertical Input");
+        //Debug.Log(horizontalInput + " Horizontal Input");
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("Hit an enemy");
+        }
     }
 }
