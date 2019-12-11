@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    //Clicky Crate
+    // December 2019 - Mark Suter - Create with Code, Unity Learn
+
     public List<GameObject> targets;
     private float spawnRate = 1.0f;
     public TextMeshProUGUI scoreText;
