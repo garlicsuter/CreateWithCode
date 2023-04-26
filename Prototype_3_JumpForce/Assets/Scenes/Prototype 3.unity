@@ -283,6 +283,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &184265096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 184265097}
+  m_Layer: 0
+  m_Name: ballSpawnLoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &184265097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184265096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.351, z: 0.387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 373308629}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &257173309 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1438565936, guid: fb82dfb8d1c7044c69afd2486befecb3,
@@ -476,6 +506,15 @@ PrefabInstance:
       propertyPath: crashSound
       value: 
       objectReference: {fileID: 8300000, guid: 913d6445ee8cc4152a9c18da590ee203, type: 3}
+    - target: {fileID: 373308632, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+      propertyPath: ballPrefab
+      value: 
+      objectReference: {fileID: 3023642041319731248, guid: cd3d91fc970cb544a88395660c89d685,
+        type: 3}
+    - target: {fileID: 373308632, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
+      propertyPath: spawnLoc
+      value: 
+      objectReference: {fileID: 184265096}
     - target: {fileID: 373308631, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
       propertyPath: m_Mass
       value: 20
@@ -888,7 +927,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstaclePrefab: {fileID: 4272171895465038047, guid: 654372b0df2239049a3e807b05ea598c,
     type: 3}
-  playerControllerScript: {fileID: 0}
 --- !u!4 &1586143361
 Transform:
   m_ObjectHideFlags: 0
@@ -929,7 +967,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014335011}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 96c3ba300e44e344cb2233a2660ca040, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

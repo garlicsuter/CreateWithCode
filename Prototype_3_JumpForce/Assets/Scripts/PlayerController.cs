@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     public AudioClip jumpSound;
     public AudioClip crashSound;
     private AudioSource playerAudio;
+    public GameObject ballPrefab;
+    public float ballSpeed = 10.0f;
+    public GameObject spawnLoc;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +40,12 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetTrigger("Jump_trig");
             dirtParticle.Stop();
             playerAudio.PlayOneShot(jumpSound, 1.0f);
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            GameObject ball = Instantiate(ballPrefab, spawnLoc.transform.position, Quaternion.identity);
+            Rigidbody rb = ball.GetComponent<Rigidbody>();
+            rb.velocity = transform.forward * ballSpeed;
         }
     }
 
