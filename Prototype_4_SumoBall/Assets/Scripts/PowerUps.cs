@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
-    public enum PowerUpType {None, Pushback, Rockets}
+    public enum PowerUpType {None, Pushback, Rockets};
+    public PowerUpType powerupType;
     // Start is called before the first frame update
     void Start()
     {
